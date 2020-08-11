@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./icon.png" type="image/gif" sizes="16x16">
+    <link href='https://fonts.googleapis.com/css?family=Autour One' rel='stylesheet'>
+    <title>Quiz App</title>
+</head>
+<body onload="showQuestion(0), startTime()">
+    <div class="container ques">
+        <div class="row">
+            <div class="col-md-12 mt-6">
+                  <div class="card mx-auto" style="max-width: 80%;">
+                    <h5 class="card-header bg-theme text-black">Quiz about HTML CSS<span id="timer" class="float-right">02:00</span></h5>
+                    <div class="card-body">
+                        <h5 class="card-title mb-4" id="questionElement">Q1. The correct answer of the equation, 2 + 2 is</h5>
+                        
+                        <p  class="card-text optionElement" onclick="activeclass(this)"> option1</p>
+                        <hr>
+                        <p  class="card-text optionElement"  onclick="activeclass(this)"> option2</p>
+                        <hr>
+                        <p class="card-text optionElement"  onclick="activeclass(this)"> option3</p>
+                        <hr>
+                        <p class="card-text optionElement"  onclick="activeclass(this)"> option4</p>
+                      </div>
+                      <div class="card-footer text-muted">
+                        <a href="#"  class="btn  float-right text-black" id="nextbtn"  onclick="nextQuestion()">Next ></a>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

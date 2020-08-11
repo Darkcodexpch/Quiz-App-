@@ -1,0 +1,121 @@
+
+
+body{
+    background: linear-gradient(160deg, #d9ecd0 55%, #fff 0%);
+    font-family: "Autour One";
+  
+   background-size: cover;
+
+}
+
+
+.btn{
+    width: 150px;
+    height:40px;
+    background-color: rgb(11, 58, 70);
+    color: white;
+    padding: 8px;
+    border:2px solid rgb(171, 203, 211);
+    border-radius: 2px;
+    
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+}
+.optionElement{
+    margin-top: 10px;
+    padding: 5px;
+   
+    margin-bottom: 10px;
+    border-radius: 2cm;
+   
+    
+}
+.card-text:hover
+       {
+    background-color:rgb(11, 58, 70) ; /* fallback for old browsers */
+    
+    color: white;
+
+}
+.card-text {
+    cursor: pointer;
+    padding: 5px 10px;
+}    
+.active{
+    background-color:rgb(11, 58, 70) ; /* fallback for old browsers */
+    
+    color: white;
+
+
+   
+    
+}
+.card-body{
+    display:block;
+
+}
+.card-footer {
+    background-color: rgb(171, 203, 211);
+}
+.card-header {
+    background-color: rgb(171, 203, 211);
+}
+.ques{
+    margin-top: 100px;}
+.container{
+    margin-top: 100px;
+    display:block;
+    margin:0 auto;
+   
+    
+    padding:20px;
+   
+}
+#name{
+    margin-bottom: 10px;
+}
+.start{
+    text-align: center;
+}
+
+#name{
+    width:300px;
+    height:60px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border:none;
+    outline:none;
+    border-bottom: 2px solid rgb(12, 136, 167);
+    background-color: transparent;
+
+}
+
+.btn:hover{
+    background-color: rgb(12, 136, 167);
+}
+
+h1, h2{
+    color: rgb(11, 58, 70);
+}
+h4{
+    color: rgb(11, 58, 70);
+}
+
+.result{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ 
+
+   
+
+
+
+.start{
+    margin-top: 100px;
+}
